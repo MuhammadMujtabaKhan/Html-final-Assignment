@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Mart</title>
+</head>
+
+<body>
+    <h1>🛒Prince Mart🎡</h1>
+    <p>Your complete shopping Destination</p><br>
+    <ul>
+        <li><a href="/index.html">Home</a>
+        <li><a href="/index.html">Electronics</a></li>
+        <li><a href="/index.html">Fashion</a></li>
+        <li><a href="/index.html">Books</a></li>
+        <li><a href="/index.html">Cart</a></li>
+        <li><a href="/index.html">Contact</a></li>
+    </ul><br>
+    <h2> Product Search </h2><br>
+    <input type="text" name="search " id="search" placeholder="Search over 10,000 products" /> <button>Search</button>
+    <h1>Featured Products</h1><br> 
+             
+    <table border="6"><caption>Today's Special Offer</caption>
+
+        <tr>
+            <th>Product</th>
+            <th>Discription</th>
+            <th>
+                <Price>
+            </th>
+            <th>Stock</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt="head phone image" height="100"><br><b>Wireless HeadPhones</b></td>
+            <td>
+                <ul>
+                    <li>Seamless Connectivity</li>
+                    <li>High-Quality Sound</li>
+                    <li>Long Battery Life</li>
+                </ul>
+            </td>
+            <td><del>189$</del> <br> 149$</td>
+            <td>In Stock</td>
+            <td><button>Add to Cart</button><br>Available quantities :15</td>
+        </tr>
+        <tr>
+            <td><img src="https://images.priceoye.pk/hd9-pro-amoled-screen-smart-watch-pakistan-priceoye-p2hyq-500x500.webp"
+                    alt="smart watch image" height="100"><br><b>Smart Watch Pro</b></td>
+            <td>
+                <ul>
+                    <li>Advance Health Tracking</li>
+                    <li>20+Sports Modes</li>
+                    <li>IP68 Water Resistant</li>
+                </ul>
+            </td>
+            <td>146.5$ <br> <del>200.6$</del></td>
+            <td>Low Stock</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+
+    </table>
+    <h1>Create New Account</h1><br>
+    <form>
+        <fieldset>
+            <legend> Personal Information</legend>
+            First Name: <input type="text" id="First name" name="First Name" required placeholder="Enter your First Name">
+            Last Name: <input type="text"id="Last name" name="Last Name" required placeholder="Enter your Last Name">
+            Date Of Birth: <title>Calender Date Picker</title>
+            <input type="Date">
+            Gender:
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Details</legend>
+            Email: <input type="email" id="email" name="email" required placeholder="enter your email">
+            Password: <input type="password" id="password" name="password" required placeholder="enter your password">
+            Phone Number: <input type="phone number" id="phone number" name="phone Number" required
+                placeholder="enter your phone number">
+            Subscribe to news letter: <input type="checkbox" name="checkbox">
+        </fieldset>
+        <fieldset>
+            <legend>Shipping address</legend>
+            Street address:<textarea id="Adress" cols="15" rows="10" name="Street Adress">
+    </textarea>
+    <form>
+            Country: <input type="country" name="country" id="country" required placeholder="enter your country name">
+              Zip code: <input type="text" id="zip Code" name="Zip Code" maxlength="10">
+        </fieldset><br> <button>Create Account</button> <button>Clear form</button>
+        <h2>Product Comparison</h2><br>
+        <table border="1">
+            <tr>
+                <th>feature</th>
+                <th>basic model</th>
+                <th>pre model</th>
+                <th>premium model</th>
+            </tr>
+            <tr>
+                <td>battery life</td>
+                <td>8 hours</td>
+                <td>12 hours</td>
+                <td>24 hours</td>
+            </tr>
+            <tr>
+                <td>water resistence</td>
+                <td>ipx4</td>
+                <td>ipx6</td>><td>ipx8</td>
+            </tr>
+            <tr>
+                <td>warrenty</td>
+                <td>1 year</td>
+                <td>2 years</td>
+                <td>4 years</td>
+            </tr>
+            <tr>
+                <td>*all prices including vat</td>
+            </tr>
+        </table>
+        <br>
+        <H2>CheckOut Process</H2>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Payment Information</legend>
+                Card Type: <input type="radio" id="visa" />
+                <label for="visa">visa</label>
+                <input type="radio" name="card" id="master card" />
+                <label for="master card">master card</label>
+                <input type="radio" name="card" id="american express" />
+                <label for="american express">american express</label><br>
+                card number:<input type="number" name="card number">
+                expiry date:<input type="date">
+                <title>calender date picker</title>
+            </fieldset>
+            <form>
+                <fieldset>
+                    <legend>order summary</legend>
+                    <table border="1" <tr>
+                        <th>item</th>
+                        <th>quantity</th>
+                        <th>price</th>
+                        </tr>
+                        <tr>
+                            <td>wireless headphones</td>
+                            <td>2</td>
+                            <td>$290.98</td>
+                        </tr>
+                        <tr>
+                            <td>shipping</td>
+                            <td>-</td>
+                            <td>$25.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">total</td>
+                            <td>$316.66</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button>complete purchase</button><br>
+                    <H1>Product Video </H1>
+                    <video controls src="video/mp4.hh.mp4" width="400" height="300" controls></video>
+
+
+                    <br>
+                    <h1>Product Audio Discription</h1>
+                    <audio src="/mp.3 tune.mp3"controls></audio>
+
+                    <br>
+                    <h2>Contact Us</h2><br>
+                    Email : <a href="mail to arhamkhan19944@gmail.com">arhamkhan19944@gmail.com</a><br>
+                    Phone : <a href="tel 03151004173"> 03151004173</a><br>
+                    <p> address: 123 commerce street Newyork, Ny 10001</p> <br>
+                    <h2>Here is our location</h2> <br>
+                    "<iframe
+                        src="
+                        https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.9095832650833!2d67.1981875!3d24.8669375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb331004a2aa071%3A0xf2e132e72edf7754!2sSMIT%20Malir%20Campus!5e0!3m2!1sen!2s!4v1747253780642!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>"<br>
+                    <h2>Check out for latest Video</h2>
+                    <video  controls src="video/mp4.tt.mp4" width="400 "height="400" controls></video>
+
+                    <br>
+                    <h1>Quick Links</h1>
+                    <ul>
+                        <li><a href="/index.html">Terms of service</a></li>
+                        <li><a href="/index.html">Privacy policy</a></li>
+                        <li><a href="/index.html">Return policy</a></li>
+                    </ul><br><br>
+                    &#169; 2025 Prince Mart All rights reserved.<br>
+                    Follow us on <a href="/index.html">Social Media</a>
+
+
+</body>
+
+</html>
